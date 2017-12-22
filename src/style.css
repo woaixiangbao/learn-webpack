@@ -1,0 +1,10 @@
+@font-face{
+    font-family: OpenSans-Regular;
+	src: url(./OpenSans-Regular.ttf) format('truetype');
+}
+.hello{
+    color: red;
+    background: url('./iphone-x-pic.jpg') 0 0 no-repeat;
+    background-size: 30px 30px;
+    font-family: 'OpenSans-Regular';
+}
