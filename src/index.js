@@ -4,7 +4,7 @@ import img from './iphone-x-pic.jpg';
 import printMe from './print.js';
 function component(){
 	var element = document.createElement('div');
-	element.innerHTML = _.join(['hello', 'webpack'], ' ');
+	element.innerHTML = _.join(['hello', 'webpack!!'], ' ');
 	element.classList.add('hello');
 	var myImg = new Image();
 	myImg.src = img;
