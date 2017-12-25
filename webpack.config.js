@@ -42,6 +42,13 @@ module.exports = {
                 use:[
                     'file-loader'
                 ]
+            },
+            {
+                test:/\.js$/,
+                use: {
+                    loader: 'babel-loader?cacheDirectory'
+                },
+                include: path.resolve(__dirname, 'src')
             }
         ]
     }

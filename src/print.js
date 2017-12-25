@@ -1,3 +1,7 @@
 export default function printMe(){
-    console.error('I get called from print.js');
+    let a = ['a','b','c'];
+    let b = a.map(item => {
+        return item + '##'
+    })
+    console.log(b);
 }
