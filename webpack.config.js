@@ -8,13 +8,13 @@ module.exports = {
     },
     devtool:'inline-source-map',
     resolve:{
-        // 使用绝对路径指明第三方模块存放的位置，以减少搜索步骤，其中__dirname表示当前工作目录，也就是项目跟目录
+        // 使用绝对路径指明第三方模块存放的位置，以减少搜索步骤，其中__dirname表示当前工作目录，也就是项目根目录
         modules:[path.resolve(__dirname, 'node_modules')]
     },
     devServer:{
         contentBase: './dist',
         compress:true,
-        port:9000
+        port:9009
     },
     plugins:[
         new HtmlWebpackPlugin({
